@@ -17,6 +17,8 @@ title: Delete your TravelHub account / ขอลบบัญชี TravelHub
 
 # ขอลบบัญชี TravelHub
 
+**ผู้พัฒนา:** ภัทรพล บุญช่วย (Pattarapon Bunchuai)
+
 **ในแอป:** Profile › ลบบัญชี
 
 **กรณีไม่มีแอป:** ส่งอีเมลถึง **pattarapon.bunchuai@gmail.com** จากที่อยู่ใดก็ได้ หัวข้อ "ขอลบบัญชี TravelHub" และแจ้งอีเมลของบัญชี TravelHub มาด้วย เราจะส่งรหัส 6 หลักไปที่อีเมลของบัญชีนั้น ตอบกลับด้วยรหัสเพื่อยืนยัน แล้วเราจึงลบบัญชีให้
