@@ -1,11 +1,11 @@
 ---
-title: TravelHub Privacy Policy
+title: Pinjai Privacy Policy
 ---
-# TravelHub Privacy Policy
+# Pinjai Privacy Policy
 
-**Effective date:** [EFFECTIVE_DATE] · [อ่านภาษาไทย](../th/)
+**Effective date:** 12 November 2026 · [อ่านภาษาไทย](../th/)
 
-This policy explains how TravelHub ("we") collects, uses, and discloses personal data when you use the TravelHub mobile app, in line with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA").
+This policy explains how Pinjai ("we") collects, uses, and discloses personal data when you use the Pinjai mobile app, in line with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA").
 
 ## 1. Who we are
 The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: **pattarapon.bunchuai@gmail.com**.
@@ -42,7 +42,7 @@ Under the PDPA you may: access and get a copy of your data; ask us to correct it
 You can delete your account in the app (**Profile › Delete account**) or on the web at [Delete your account](../../delete-account/).
 
 ## 7. Children
-TravelHub is intended for users aged 13 and over.
+Pinjai is intended for users aged 13 and over.
 
 ## 8. Security
 Data is encrypted in transit, access to our database is restricted per user, and server-side API keys are never stored in the app.

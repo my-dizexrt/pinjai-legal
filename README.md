@@ -1,6 +1,6 @@
 # travelhub-legal
 
-Public pages for the TravelHub app (`com.pattarapon.travelhub`), served with GitHub Pages.
+Public pages for the Pinjai (พินใจ) app (`com.pattarapon.travelhub`), served with GitHub Pages.
 
 | Page | Path |
 |---|---|
@@ -8,5 +8,5 @@ Public pages for the TravelHub app (`com.pattarapon.travelhub`), served with Git
 | Privacy policy (Thai) | `/privacy/th/` |
 | Account deletion request | `/delete-account/` |
 
-Placeholders still to fill before publishing: `[EFFECTIVE_DATE]`.
+No placeholders left. The contact email will change once the app domain is set up.
 This is a draft prepared for review, not legal advice.
