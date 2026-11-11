@@ -8,5 +8,5 @@ Public pages for the Pinjai (พินใจ) app (`com.pattarapon.travelhub`), 
 | Privacy policy (Thai) | `/privacy/th/` |
 | Account deletion request | `/delete-account/` |
 
-No placeholders left. The contact email will change once the app domain is set up.
+No placeholders left. Contact email: `support@pinjai.com` (forwards to the owner's inbox).
 This is a draft prepared for review, not legal advice.
