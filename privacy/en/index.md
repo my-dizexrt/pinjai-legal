@@ -13,7 +13,7 @@ The data controller is **[CONTROLLER_NAME]**. Contact for any privacy matter: **
 ## 2. Data we collect
 | Data | Source | Why | Legal basis (PDPA) |
 |---|---|---|---|
-| Account: name, email, sign-in method (Apple, Google, or email), profile photo from your Google account if any | You / Apple / Google | Create and secure your account | Contract (s.24(3)) |
+| Account: name, email, sign-in method (Apple or Google), profile photo from your Google account if any | You / Apple / Google | Create and secure your account | Contract (s.24(3)) |
 | Trip data: trip names, destinations, dates, accommodation, stops, notes you type (for example names of people you meet), and the time you tap **Arrived** at each stop | You | Plan and run your trips | Contract (s.24(3)) |
 | Precise location, only while the app is open and only if you allow it | Your device | Show you on today's route and calculate travel time to your next stop | Contract (s.24(3)); you can refuse or turn it off at any time and the trip still works |
 | Place searches and stop coordinates | You | Find places and calculate routes | Contract (s.24(3)) |
