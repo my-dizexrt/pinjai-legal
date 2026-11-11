@@ -34,7 +34,7 @@ Booking or partner links open the partner's website; we do not send your persona
 Our providers store or process data outside Thailand (Singapore, the United States, and other countries). We rely on providers with appropriate data protection standards and contractual safeguards, as required by PDPA sections 28–29.
 
 ## 5. How long we keep data
-We keep account and trip data while your account is active. When you delete your account, we delete your account and trip data within 30 days; backup copies are overwritten within {{BACKUP_RETENTION_DAYS}} days. Crash reports are kept for up to 90 days.
+We keep account and trip data while your account is active. When you delete your account, we delete your account and trip data within 30 days; backup copies are overwritten within 7 days. Crash reports are kept for up to 30 days.
 
 ## 6. Your rights
 Under the PDPA you may: access and get a copy of your data; ask us to correct it; ask us to delete it; object to or restrict processing; ask to transfer your data; and withdraw consent where we rely on consent. Contact **{{CONTACT_EMAIL}}**. You can also complain to Thailand's Personal Data Protection Committee ([pdpc.or.th](https://www.pdpc.or.th)).

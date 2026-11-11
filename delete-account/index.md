@@ -9,7 +9,7 @@ title: Delete your TravelHub account / ขอลบบัญชี TravelHub
 
 **Without the app:** email **{{CONTACT_EMAIL}}** from the email address linked to your TravelHub account, with the subject "Delete my TravelHub account". We will send a confirmation email to verify it's you, then delete the account.
 
-**What is deleted:** your account (name, email, sign-in link), all trips, stops, notes, and Arrived times, within 30 days. Backup copies are overwritten within {{BACKUP_RETENTION_DAYS}} days. Crash reports without your email or location may remain for up to 90 days. If you signed in with Apple, we also revoke TravelHub's access to your Apple ID.
+**What is deleted:** your account (name, email, sign-in link), all trips, stops, notes, and Arrived times, within 30 days. Backup copies are overwritten within 7 days. Crash reports without your email or location may remain for up to 30 days. If you signed in with Apple, we also revoke TravelHub's access to your Apple ID.
 
 ---
 
@@ -19,4 +19,4 @@ title: Delete your TravelHub account / ขอลบบัญชี TravelHub
 
 **กรณีไม่มีแอป:** ส่งอีเมลถึง **{{CONTACT_EMAIL}}** จากอีเมลที่ผูกกับบัญชี TravelHub หัวข้อ "ขอลบบัญชี TravelHub" เราจะส่งอีเมลยืนยันตัวตนกลับไป แล้วจึงลบบัญชีให้
 
-**ข้อมูลที่จะถูกลบ:** บัญชี (ชื่อ อีเมล การเชื่อมต่อการล็อกอิน) ทริป จุดแวะ ข้อความ และเวลาที่กดถึงแล้วทั้งหมด ภายใน 30 วัน สำเนาสำรองจะถูกเขียนทับภายใน {{BACKUP_RETENTION_DAYS}} วัน รายงานข้อผิดพลาดที่ไม่มีอีเมลหรือตำแหน่งอาจเหลืออยู่ไม่เกิน 90 วัน หากล็อกอินด้วย Apple เราจะยกเลิกสิทธิ์ของ TravelHub ในบัญชี Apple ของคุณด้วย
+**ข้อมูลที่จะถูกลบ:** บัญชี (ชื่อ อีเมล การเชื่อมต่อการล็อกอิน) ทริป จุดแวะ ข้อความ และเวลาที่กดถึงแล้วทั้งหมด ภายใน 30 วัน สำเนาสำรองจะถูกเขียนทับภายใน 7 วัน รายงานข้อผิดพลาดที่ไม่มีอีเมลหรือตำแหน่งอาจเหลืออยู่ไม่เกิน 30 วัน หากล็อกอินด้วย Apple เราจะยกเลิกสิทธิ์ของ TravelHub ในบัญชี Apple ของคุณด้วย
