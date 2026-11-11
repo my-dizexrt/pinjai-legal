@@ -3,12 +3,12 @@ title: TravelHub Privacy Policy
 ---
 # TravelHub Privacy Policy
 
-**Effective date:** {{EFFECTIVE_DATE}} · [อ่านภาษาไทย](../th/)
+**Effective date:** [EFFECTIVE_DATE] · [อ่านภาษาไทย](../th/)
 
 This policy explains how TravelHub ("we") collects, uses, and discloses personal data when you use the TravelHub mobile app, in line with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA").
 
 ## 1. Who we are
-The data controller is **{{CONTROLLER_NAME}}**. Contact for any privacy matter: **{{CONTACT_EMAIL}}**.
+The data controller is **[CONTROLLER_NAME]**. Contact for any privacy matter: **[CONTACT_EMAIL]**.
 
 ## 2. Data we collect
 | Data | Source | Why | Legal basis (PDPA) |
@@ -37,7 +37,7 @@ Our providers store or process data outside Thailand (Singapore, the United Stat
 We keep account and trip data while your account is active. When you delete your account, we delete your account and trip data within 30 days; backup copies are overwritten within 7 days. Crash reports are kept for up to 30 days.
 
 ## 6. Your rights
-Under the PDPA you may: access and get a copy of your data; ask us to correct it; ask us to delete it; object to or restrict processing; ask to transfer your data; and withdraw consent where we rely on consent. Contact **{{CONTACT_EMAIL}}**. You can also complain to Thailand's Personal Data Protection Committee ([pdpc.or.th](https://www.pdpc.or.th)).
+Under the PDPA you may: access and get a copy of your data; ask us to correct it; ask us to delete it; object to or restrict processing; ask to transfer your data; and withdraw consent where we rely on consent. Contact **[CONTACT_EMAIL]**. You can also complain to Thailand's Personal Data Protection Committee ([pdpc.or.th](https://www.pdpc.or.th)).
 
 You can delete your account in the app (**Profile › Delete account**) or on the web at [Delete your account](../../delete-account/).
 
