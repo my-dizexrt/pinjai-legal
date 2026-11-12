@@ -1,6 +1,6 @@
-# travelhub-legal
+# pinjai-legal
 
-Public pages for the Pinjai (พินใจ) app (`com.pattarapon.travelhub`), served with GitHub Pages.
+Public pages for the Pinjai (พินใจ) app (`com.pinjai.app`), served with GitHub Pages.
 
 | Page | Path |
 |---|---|

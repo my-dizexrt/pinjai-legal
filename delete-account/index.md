@@ -3,7 +3,7 @@ title: Delete your Pinjai account / ขอลบบัญชีพินใจ
 ---
 # Delete your Pinjai account
 
-**App:** Pinjai (`com.pattarapon.travelhub`) · **Developer:** Pattarapon Bunchuai
+**App:** Pinjai (`com.pinjai.app`) · **Developer:** Pattarapon Bunchuai
 
 **In the app:** Profile › Delete account.
 
