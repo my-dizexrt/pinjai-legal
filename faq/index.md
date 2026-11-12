@@ -52,6 +52,8 @@ In the app: **Profile › Delete account**. Without the app, follow [Delete your
 
 See the [Privacy Policy](../privacy/en/).
 
+Your last 8 searches are listed only on your phone. You can clear them in Search, and they are cleared when you sign out or delete your account.
+
 ### How do I contact support?
 
 Email **support@pinjai.com**. To help us fix a problem, tell us your phone model, OS version, the Pinjai version (shown in Profile) and what happened. Never send us a password or a verification code from another service.
@@ -110,6 +112,8 @@ Pinjai is developed by Pattarapon Bunchuai, Thailand.
 ### พินใจเก็บข้อมูลอะไรบ้าง
 
 ดู[นโยบายความเป็นส่วนตัว](../privacy/th/)
+
+รายการคำค้นล่าสุด 8 คำเก็บไว้ในโทรศัพท์ของคุณเท่านั้น ล้างได้ในหน้าค้นหา และจะถูกล้างเมื่อออกจากระบบหรือลบบัญชี
 
 ### ติดต่อฝ่ายช่วยเหลืออย่างไร
 
