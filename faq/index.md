@@ -15,7 +15,7 @@ With your Apple ID (Sign in with Apple) or your Google account. Pinjai has no se
 
 ### Why does Pinjai ask for my location?
 
-Only to show where you are on today's route and how long it takes to reach your next stop. Pinjai asks for location **only while you're using the app**. It does not track you in the background, does not save the path you travel, and does not share your location with other users.
+To show where you are on today's route and how long it takes to reach your next stop, and to show your dot on the Map. Your dot on the Map is shown on your phone only and is not sent anywhere. Pinjai asks for location **only while you're using the app**. It does not track you in the background, does not save the path you travel, and does not share your location with other users.
 
 ### Can I use Pinjai without sharing my location?
 
@@ -78,7 +78,7 @@ Pinjai is developed by Pattarapon Bunchuai, Thailand.
 
 ### ทำไมพินใจขอตำแหน่งของฉัน
 
-ใช้เพื่อแสดงว่าคุณอยู่ตรงไหนบนเส้นทางวันนี้ และอีกนานแค่ไหนจะถึงจุดแวะถัดไปเท่านั้น พินใจขอตำแหน่ง**เฉพาะตอนที่เปิดใช้แอป** ไม่ติดตามตำแหน่งเบื้องหลัง ไม่บันทึกเส้นทางที่คุณเดินทาง และไม่แชร์ตำแหน่งให้ผู้ใช้คนอื่น
+ใช้เพื่อแสดงว่าคุณอยู่ตรงไหนบนเส้นทางวันนี้ อีกนานแค่ไหนจะถึงจุดแวะถัดไป และแสดงจุดตำแหน่งของคุณบนแผนที่ จุดบนแผนที่แสดงในโทรศัพท์ของคุณเท่านั้น ไม่ส่งไปที่ไหน พินใจขอตำแหน่ง**เฉพาะตอนที่เปิดใช้แอป** ไม่ติดตามตำแหน่งเบื้องหลัง ไม่บันทึกเส้นทางที่คุณเดินทาง และไม่แชร์ตำแหน่งให้ผู้ใช้คนอื่น
 
 ### ใช้พินใจโดยไม่ให้ตำแหน่งได้ไหม
 

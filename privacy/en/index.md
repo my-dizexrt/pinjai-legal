@@ -3,7 +3,7 @@ title: Pinjai Privacy Policy
 ---
 # Pinjai Privacy Policy
 
-**Effective date:** 12 November 2026 · [อ่านภาษาไทย](../th/)
+**Effective date:** 13 November 2026 · [อ่านภาษาไทย](../th/)
 
 This policy explains how Pinjai ("we") collects, uses, and discloses personal data when you use the Pinjai mobile app, in line with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA").
 
@@ -16,7 +16,7 @@ The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: 
 |---|---|---|---|
 | Account: name, email, sign-in method (Apple or Google), profile photo from your Google account if any | You / Apple / Google | Create and secure your account | Contract (s.24(3)) |
 | Trip data: trip names, destinations, dates, accommodation, stops, notes you type (for example names of people you meet), and the time you tap **Arrived** at each stop | You | Plan and run your trips | Contract (s.24(3)) |
-| Precise location, only while the app is open and only if you allow it | Your device | Show you on today's route and calculate travel time to your next stop | Contract (s.24(3)); you can refuse or turn it off at any time and the trip still works |
+| Precise location, only while the app is open and only if you allow it | Your device | Show you on today's route and on the Map, and calculate travel time to your next stop | Contract (s.24(3)); you can refuse or turn it off at any time and the trip still works |
 | Place searches and stop coordinates | You | Find places and calculate routes | Contract (s.24(3)) |
 | Crash and error reports (device model, OS version, app version, error details; no location or email) | Your device | Fix bugs and keep the app stable | Legitimate interest (s.24(5)) |
 
@@ -27,7 +27,7 @@ The list of your last 8 searches is kept only on your phone so you can repeat th
 ## 3. Who receives your data
 We use these service providers, who process data on our behalf:
 - **Supabase** (database, sign-in), servers in Singapore.
-- **Google Maps Platform** (Places, Routes, Maps SDK). Your searches and the coordinates needed to calculate a route, including your current location while you navigate, are sent through our server to Google. See [Google's privacy policy](https://policies.google.com/privacy).
+- **Google Maps Platform** (Places, Routes, Maps SDK). Your searches and the coordinates needed to calculate a route, including your current location during a trip day, are sent through our server to Google. Your position on the Map tab outside a trip day is shown on your phone only and is not sent to us or to Google. See [Google's privacy policy](https://policies.google.com/privacy).
 - **Sentry** (crash reports).
 - **Apple / Google** when you choose to sign in with them.
 
