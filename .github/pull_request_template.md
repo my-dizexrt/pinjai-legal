@@ -28,4 +28,4 @@
   - [ ] no Markdown leaked into page text (`|`, `|—|`, `**`, leading `#`)
   - [ ] TH and EN have the same number of tables, rows (`<tr`) and headings (`<h2`)
   - [ ] all URLs return 200 and cross-page links work
-  - [ ] numbers posted in the PR and in the TravelHub room
+  - [ ] numbers posted in the PR and in the team room
