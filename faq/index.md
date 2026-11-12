@@ -23,7 +23,7 @@ Yes. Your trips and plans work without location. On the trip day, tap **Arrived*
 
 ### How do I turn location on or off?
 
-- **iPhone:** Settings › Pinjai › Location. Choose *While Using the App* or *Never*. *Precise Location* controls whether Pinjai gets your exact or approximate position.
+- **iPhone:** Settings › Apps › Pinjai › Location (iOS 17 and earlier: Settings › Pinjai › Location). Choose *While Using the App* or *Never*. *Precise Location* controls whether Pinjai gets your exact or approximate position.
 - **Android:** Settings › Apps › Pinjai › Permissions › Location. Choose *Allow only while using the app*, *Ask every time* or *Don't allow*. *Use precise location* controls exact or approximate.
 
 With approximate location, Pinjai still works, but your position on the map and travel times may be less accurate.
@@ -82,7 +82,7 @@ Pinjai is developed by Pattarapon Bunchuai, Thailand.
 
 ### เปิดหรือปิดตำแหน่งอย่างไร
 
-- **iPhone:** การตั้งค่า › Pinjai › ตำแหน่งที่ตั้ง เลือก *ขณะใช้แอป* หรือ *ไม่ต้องเลย* ส่วน *ตำแหน่งที่แม่นยำ* ใช้กำหนดว่าพินใจจะได้ตำแหน่งที่แม่นยำหรือโดยประมาณ
+- **iPhone:** การตั้งค่า › แอป › พินใจ › ตำแหน่งที่ตั้ง (iOS 17 หรือเก่ากว่า: การตั้งค่า › พินใจ › ตำแหน่งที่ตั้ง) เลือก *ขณะใช้แอป* หรือ *ไม่ต้องเลย* ส่วน *ตำแหน่งที่แม่นยำ* ใช้กำหนดว่าพินใจจะได้ตำแหน่งที่แม่นยำหรือโดยประมาณ
 - **Android:** การตั้งค่า › แอป › พินใจ › สิทธิ์ › ตำแหน่ง เลือก *อนุญาตขณะใช้แอปเท่านั้น*, *ถามทุกครั้ง* หรือ *ไม่อนุญาต* ส่วน *ใช้ตำแหน่งที่แม่นยำ* ใช้กำหนดว่าแม่นยำหรือโดยประมาณ
 
 ถ้าใช้ตำแหน่งโดยประมาณ พินใจยังใช้ได้ แต่ตำแหน่งบนแผนที่และเวลาเดินทางอาจคลาดเคลื่อนมากขึ้น
