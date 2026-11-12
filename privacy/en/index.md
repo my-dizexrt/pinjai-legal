@@ -8,7 +8,7 @@ title: Pinjai Privacy Policy
 This policy explains how Pinjai ("we") collects, uses, and discloses personal data when you use the Pinjai mobile app, in line with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA").
 
 ## 1. Who we are
-The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: **pattarapon.bunchuai@gmail.com**.
+The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: **support@pinjai.com**.
 
 ## 2. Data we collect
 | Data | Source | Why | Legal basis (PDPA) |
@@ -37,7 +37,7 @@ Our providers store or process data outside Thailand (Singapore, the United Stat
 We keep account and trip data while your account is active. When you delete your account, we delete your account and trip data within 30 days; backup copies are overwritten within 7 days. Crash reports are kept for up to 30 days.
 
 ## 6. Your rights
-Under the PDPA you may: access and get a copy of your data; ask us to correct it; ask us to delete it; object to or restrict processing; ask to transfer your data; and withdraw consent where we rely on consent. Contact **pattarapon.bunchuai@gmail.com**. You can also complain to Thailand's Personal Data Protection Committee ([pdpc.or.th](https://www.pdpc.or.th)).
+Under the PDPA you may: access and get a copy of your data; ask us to correct it; ask us to delete it; object to or restrict processing; ask to transfer your data; and withdraw consent where we rely on consent. Contact **support@pinjai.com**. You can also complain to Thailand's Personal Data Protection Committee ([pdpc.or.th](https://www.pdpc.or.th)).
 
 You can delete your account in the app (**Profile › Delete account**) or on the web at [Delete your account](../../delete-account/).
 
