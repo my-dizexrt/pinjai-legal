@@ -22,7 +22,7 @@ The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: 
 
 We do **not** track your location in the background, we do **not** save the path you travel, and we do **not** share your location with other users. We do not sell personal data, use advertising networks, or track you across other companies' apps or websites.
 
-Your last 8 searches are saved only on your phone so you can repeat them quickly. They are not sent to our servers or included in crash reports. You can clear them in Search, and they are also cleared when you sign out or delete your account.
+The list of your last 8 searches is kept only on your phone so you can repeat them quickly. We do not upload this list to our servers or include it in crash reports. Each search you run is still sent through our server to Google to find places (see section 3). You can clear the list in Search, and it is also cleared when you sign out or delete your account.
 
 ## 3. Who receives your data
 We use these service providers, who process data on our behalf:
