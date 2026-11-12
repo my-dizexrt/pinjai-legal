@@ -32,6 +32,8 @@ With approximate location, Pinjai still works, but your position on the map and 
 
 Yes. Searching for places and calculating routes and travel times need an internet connection.
 
+If you open Pinjai again while offline, your trips, days, stop order, Arrived times and names you typed yourself still show. Place names and photos from Google, and travel times, need the internet again: stops show as "Stop 1", "Stop 2" and so on, and times show as "—". This is because Google's terms don't let us save their place names on your phone or on our servers.
+
 ### How do directions work?
 
 When you tap **Directions**, Pinjai opens Google Maps or Apple Maps for turn-by-turn navigation.
@@ -92,6 +94,8 @@ Pinjai is developed by Pattarapon Bunchuai, Thailand.
 ### ต้องใช้อินเทอร์เน็ตไหม
 
 ต้องใช้ การค้นหาสถานที่ และการคำนวณเส้นทางกับเวลาเดินทางต้องเชื่อมต่ออินเทอร์เน็ต
+
+ถ้าเปิดพินใจใหม่ตอนออฟไลน์ ทริป วัน ลำดับจุดแวะ เวลาที่กดถึงแล้ว และชื่อที่คุณตั้งเองยังแสดงตามปกติ แต่ชื่อและรูปสถานที่จาก Google รวมถึงเวลาเดินทาง ต้องต่ออินเทอร์เน็ตเพื่อโหลดใหม่ ระหว่างนั้นจุดแวะจะแสดงเป็น “จุดแวะที่ 1”, “จุดแวะที่ 2” และเวลาเดินทางจะแสดงเป็น “—” เพราะเงื่อนไขของ Google ไม่อนุญาตให้เราเก็บชื่อสถานที่ไว้ในโทรศัพท์หรือบนเซิร์ฟเวอร์ของเรา
 
 ### การนำทางทำงานอย่างไร
 
