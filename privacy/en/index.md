@@ -22,6 +22,8 @@ The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: 
 
 We do **not** track your location in the background, we do **not** save the path you travel, and we do **not** share your location with other users. We do not sell personal data, use advertising networks, or track you across other companies' apps or websites.
 
+Your last 8 searches are saved only on your phone so you can repeat them quickly. They are not sent to our servers or included in crash reports. You can clear them in Search, and they are also cleared when you sign out or delete your account.
+
 ## 3. Who receives your data
 We use these service providers, who process data on our behalf:
 - **Supabase** (database, sign-in), servers in Singapore.
