@@ -16,6 +16,7 @@
 - [ ] Every table, list and code block has a blank line before it (including right after a `##` heading); table separator rows use ASCII `|---|`
 - [ ] No unfilled placeholder (`[CONTROLLER_NAME]` style), no old name (TravelHub), and every contact email is support@pinjai.com
 - [ ] Effective / updated date changed if the policy content changed
+- [ ] If data collected, processors, retention or sign-in changed: the fact comes from `docs/decisions.md` (or a written decision), and the Apple App Privacy / Google Play Data safety answers are flagged for update
 
 ## QA (reviewer)
 
