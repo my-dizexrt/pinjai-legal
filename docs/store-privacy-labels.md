@@ -1,5 +1,6 @@
-# Pinjai: Apple App Privacy and Google Play Data safety (v0.3 draft)
+# Pinjai: Apple App Privacy and Google Play Data safety (v0.3, ready to enter)
 
+_v0.3 final (13 Nov 2026): checked against WS4 decision 3 (Arrived/Skip status and time in Supabase without coordinates; live position sent once to Google Routes, not stored); no answer changes. Ready to enter._
 _v0.3 (12 Nov 2026): updated for the WS3 decisions: recent searches kept on the device, `place_id` stored, stop coordinates kept at most 30 days (pinjai #37), and no Google place names stored. The form answers themselves don't change; only the notes and decisions 5–7 are new. PM enters the forms once the owner opens the store accounts._
 
 _Owner: Privacy & Compliance. 12 Nov 2026. Source: the live privacy policy (https://my-dizexrt.github.io/pinjai-legal/privacy/en/), REQUIREMENTS.md (MVP) and docs/decisions.md. MVP only: sign in with Apple or Google, location only While Using, Sentry with no PII, no ads, no analytics SDK, no photo access. Update this file through the policy-sync rule whenever data, processors, retention or sign-in change. Not legal advice._
