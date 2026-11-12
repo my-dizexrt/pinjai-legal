@@ -42,7 +42,7 @@ Your trips belong to your account. We do not share them with other users or sell
 
 ### How do I change the language?
 
-Open **Profile › Language** and choose Thai or English.
+Open **Profile › Language** and choose ไทย (Thai) or English.
 
 ### How do I delete my account?
 
