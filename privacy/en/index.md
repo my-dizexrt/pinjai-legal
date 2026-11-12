@@ -11,6 +11,7 @@ This policy explains how Pinjai ("we") collects, uses, and discloses personal da
 The data controller is **Pattarapon Bunchuai**. Contact for any privacy matter: **support@pinjai.com**.
 
 ## 2. Data we collect
+
 | Data | Source | Why | Legal basis (PDPA) |
 |---|---|---|---|
 | Account: name, email, sign-in method (Apple or Google), profile photo from your Google account if any | You / Apple / Google | Create and secure your account | Contract (s.24(3)) |
