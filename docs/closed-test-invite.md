@@ -72,7 +72,7 @@ The Pinjai team · support@pinjai.com
 - **ถอนความยินยอม:** ทำได้ทุกเมื่อ ด้วยการกด "ออกจากโปรแกรม" ที่ {OPT_IN_URL} หรือส่งอีเมลมาที่ support@pinjai.com เราจะลบอีเมลของคุณออกจากรายชื่อ การถอนไม่กระทบสิ่งที่ทำไปแล้วก่อนหน้า
 - **สิทธิของคุณ:** ขอดู ขอสำเนา ขอแก้ไข ขอลบ หรือคัดค้านได้ทาง support@pinjai.com และร้องเรียนต่อสำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (สคส.) ได้
 - **ตัวแอป:** ข้อมูลที่แอปเก็บระหว่างใช้งาน (บัญชี ทริป ตำแหน่งในวันเดินทาง) เป็นไปตาม[นโยบายความเป็นส่วนตัว](https://my-dizexrt.github.io/pinjai-legal/privacy/th/) เหมือนผู้ใช้ทั่วไป
-- **ตอนส่งความเห็น:** อย่าใส่ข้อมูลส่วนตัวของคนอื่น และอย่าส่งภาพหน้าจอที่เห็นข้อมูลของคนอื่น
+- **อีเมลส่งความเห็น:** อีเมลที่คุณส่งมา (รวมรุ่นโทรศัพท์และเวอร์ชันแอปที่ใส่มา) ใช้ตอบและแก้ปัญหา ถือเป็นอีเมลติดต่อฝ่ายช่วยเหลือ ตาม[นโยบายความเป็นส่วนตัว](https://my-dizexrt.github.io/pinjai-legal/privacy/th/) อย่าใส่ข้อมูลส่วนตัวของคนอื่น และอย่าส่งภาพหน้าจอที่เห็นข้อมูลของคนอื่น
 
 ### English — How we use tester data
 - **Controller:** Pattarapon Bunchuai, contact support@pinjai.com.
@@ -84,7 +84,7 @@ The Pinjai team · support@pinjai.com
 - **Withdraw consent:** any time, by tapping "Leave the program" at {OPT_IN_URL} or emailing support@pinjai.com. We'll remove your email from the list. Withdrawing doesn't affect what was done before.
 - **Your rights:** access, copy, correction, deletion or objection via support@pinjai.com, and you can complain to Thailand's PDPC (สคส.).
 - **The app itself:** data the app handles while you use it (account, trips, location on a trip day) follows the [privacy policy](https://my-dizexrt.github.io/pinjai-legal/privacy/en/), the same as for any user.
-- **When you send feedback:** don't include other people's personal data or screenshots that show it.
+- **Feedback emails:** what you send us (including the phone model and app version you add) is used to reply and fix problems, and is handled as a support email under the [privacy policy](https://my-dizexrt.github.io/pinjai-legal/privacy/en/). Don't include other people's personal data or screenshots that show it.
 
 ## 4. TH/EN parity
 | Claim | TH | EN |
