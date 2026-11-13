@@ -25,6 +25,7 @@ Source of truth for facts: [privacy policy](../privacy/en/index.md), [store priv
 | A6 | Crash and error reports | App users | Device model, OS and app version, error details; no location, no email | Fix bugs | Legitimate interest, s.24(5) | Sentry | Sentry region: **to confirm** (US or EU) | Up to 30 days |
 | A7 | Support and rights requests | Users and anyone who emails us | Email address, message, account ID if given | Answer questions and PDPA requests | Legal obligation s.24(6) (rights requests); legitimate interest s.24(5) (support) | Email provider: **to confirm** | **To confirm** | **To set:** suggest 1 year after the request is closed |
 | A8 | Account deletion on the web | Users | Email, account ID | Honour deletion | Legal obligation, s.24(6) | Supabase | Singapore | Request log kept 1 year as proof (**to confirm**) |
+| A9 | Google Play closed test | Testers who sign up | Google account email only | Run the Play closed test required for production access | Consent, s.19 | Google Play | Google (US and other) | Until production access is granted + 30 days, then deleted |
 
 Not processed: sensitive data under s.26, advertising IDs, tracking across apps, sale of data, background location, location history.
 

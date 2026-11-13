@@ -62,9 +62,9 @@ If the Play developer account is a **personal account created after 13 Nov 2023*
 | G12 | Data safety | ✅ | store-privacy-labels.md v0.3 |
 | G13 | Account deletion URL (Data safety) | ✅ | `/delete-account/` |
 | G14 | News / government / financial / health / COVID-19 declarations | ✅ | No / none |
-| G15 | Location permissions declaration | ✅ | Should not appear; ST-AND-07 `aapt2 dump permissions` on the release AAB |
+| G15 | Location permissions declaration | ✅ | Should not appear; ST-AND-07 `bundletool dump manifest` on the release AAB (`aapt2` can't read an AAB) |
 | G16 | Release AAB, signed by Play App Signing | 🟡 SE | |
-| G17 | Closed test 12+ testers × 14 days, then apply for production | 🔴 | Timeline risk above |
+| G17 | Closed test 12+ testers × 14 days, then apply for production | 🔴 | Timeline risk above; plan in [play-closed-test-plan.md](play-closed-test-plan.md) |
 | G18 | Countries | 🔴 | Same as 0.6 |
 
 ## 3. Final checks before pressing Submit
