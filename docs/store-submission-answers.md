@@ -30,7 +30,7 @@ Facts checked against `my-dizexrt/pinjai` main (`apps/mobile/app.config.ts`, `RE
 | Violence (all types) | None | |
 | Gambling, simulated gambling, contests, loot boxes | No / None | |
 
-**Expected result: 4+.** The app is still meant for 13+ users (policy). Apple's rating describes content, so 4+ doesn't contradict the policy. **Decision for PM/owner:** keep the calculated 4+, or, if App Store Connect offers it, set a higher minimum age so the store shows 13+ to match the policy. I recommend keeping 4+ (honest answers, nothing to justify), with no change to the policy.
+**Expected result: 4+.** The app is still meant for 13+ users (policy). Apple's rating describes content, so 4+ doesn't contradict the policy. **Decided (PM, 14 Nov 2026): use the calculated 4+.** Reason: Apple's age rating describes the app's content, which has nothing that needs a higher rating, so honest answers give 4+. The 13+ minimum stays in the privacy policy (§7) as who the service is for. The two don't conflict, so nothing in the policy changes.
 
 ### Export compliance (encryption)
 - "Does your app use encryption?" — **Yes**, only standard encryption (HTTPS/TLS through the OS) that qualifies for the exemption. Because `ITSAppUsesNonExemptEncryption` is `false` in the build, App Store Connect normally won't ask per build.
@@ -78,7 +78,7 @@ Facts checked against `my-dizexrt/pinjai` main (`apps/mobile/app.config.ts`, `RE
 | Data safety | See store-privacy-labels.md |
 
 ## Open items
-1. PM/owner: 4+ or a 13+ minimum on Apple (recommendation: 4+).
+1. ~~4+ or 13+ on Apple~~: decided 4+ (PM, 14 Nov 2026).
 2. Reviewer sign-in method for Apple and Play once real auth is built.
 3. If any Phase 2 feature ships (Shared, posting, sharing location with friends, an in-app browser, ads), redo the age rating, IARC and target audience: chat/UGC/location sharing change these answers. Note that `REQUIREMENTS.md` plans to limit location sharing and posting to 20+.
 4. Owner enters these in the consoles. Console wording may change, so match each answer by meaning and flag anything new to P&C.
