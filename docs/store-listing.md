@@ -1,7 +1,8 @@
-# Pinjai (พินใจ) — Store listing copy v0.2.4
+# Pinjai (พินใจ) — Store listing copy v0.2.5
 
-_Date: 12 Nov 2026 (12 พ.ย. 2569)._
+_Date: 14 Nov 2026 (14 พ.ย. 2569)._
 _Changelog:_
+- _v0.2.5 (14 Nov 2026): aligned location claims with Map decision (ก) and P&C copy v0.3.6 — location only during an in-progress trip day while the app is open, shown on the trip day screen, travel times update at Start Day / Arrived or Skip / Refresh, and the live location is not stored._
 - _v0.2 (12 Nov 2026): Privacy & Compliance review — replaced the location-off sentence (exact TH wording; EN matched in meaning); moved the support email, privacy-policy URLs, and delete-account URL out of the descriptions into Store console fields; set the support email to support@pinjai.com with a 14 Dec 2026 fallback; added a pending Support URL (FAQ, due by 6 Dec 2026); removed “Powered by Google” from the listing and kept the Google Maps / Apple Maps handoff sentences._
 - _v0.2.1 (12 Nov 2026): support@pinjai.com confirmed working by PM; removed the Gmail fallback._
 - _v0.2.2 (12 Nov 2026): owner renamed everything to Pinjai (PM). Legal URLs move to `https://my-dizexrt.github.io/pinjai-legal/` (live once the owner renames the repo `my-dizexrt/pinjai-legal`; the old travelhub-legal links stop working then). Bundle ID / Android package is now `com.pinjai.app`. Listing text unchanged._
@@ -20,20 +21,20 @@ Counts use **Unicode code points** (Python 3 `len(str)`, same as JavaScript `[..
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | EN | App Store | App name | 30 | 6 | 24 | Pass |
 | EN | App Store | Subtitle | 30 | 30 | 0 | Pass |
-| EN | App Store | Promotional text | 170 | 160 | 10 | Pass |
-| EN | App Store | Description | 4000 | 1535 | 2465 | Pass |
+| EN | App Store | Promotional text | 170 | 170 | 0 | Pass |
+| EN | App Store | Description | 4000 | 1730 | 2270 | Pass |
 | EN | App Store | Keywords | 100 | 100 | 0 | Pass |
 | EN | Google Play | Title | 30 | 6 | 24 | Pass |
 | EN | Google Play | Short description | 80 | 56 | 24 | Pass |
-| EN | Google Play | Full description | 4000 | 1535 | 2465 | Pass |
+| EN | Google Play | Full description | 4000 | 1730 | 2270 | Pass |
 | TH | App Store | App name | 30 | 6 | 24 | Pass |
 | TH | App Store | Subtitle | 30 | 29 | 1 | Pass |
-| TH | App Store | Promotional text | 170 | 121 | 49 | Pass |
-| TH | App Store | Description | 4000 | 1245 | 2755 | Pass |
+| TH | App Store | Promotional text | 170 | 150 | 20 | Pass |
+| TH | App Store | Description | 4000 | 1371 | 2629 | Pass |
 | TH | App Store | Keywords | 100 | 99 | 1 | Pass |
 | TH | Google Play | Title | 30 | 6 | 24 | Pass |
 | TH | Google Play | Short description | 80 | 42 | 38 | Pass |
-| TH | Google Play | Full description | 4000 | 1245 | 2755 | Pass |
+| TH | Google Play | Full description | 4000 | 1371 | 2629 | Pass |
 
 All length, format, tone, and out-of-scope scans passed.
 
@@ -56,7 +57,7 @@ Plan your trip, then follow it
 **Promotional text** (≤170)
 
 ```
-Plan every day of your trip, then follow it on the road. Location is used only while you’re using the app, not shared with friends or tracked in the background.
+Plan every day of your trip, then follow it on the road. Trip-day location only while the app is open. Not stored, not shared with friends, not tracked in the background.
 ```
 
 **Description** (≤4000)
@@ -64,7 +65,7 @@ Plan every day of your trip, then follow it on the road. Location is used only w
 ```
 Pinjai helps you plan every day of your trip, then follow that plan on the road.
 
-Create a trip, search for places, and add them to a day. Reorder your stops, see driving times between them, and use Optimize route when a different order would save driving time. On a trip day, follow your plan stop by stop: see the next stop, see how long it takes to get there while you’re using the app, and tap Arrived when you get there. For turn-by-turn directions, open the stop in Google Maps or Apple Maps.
+Create a trip, search for places, and add them to a day. Reorder your stops, see driving times between them, and use Optimize route when a different order would save driving time. On a trip day, follow your plan stop by stop: see the next stop, see how long it takes to get there (updated when you start the day, arrive at a stop, or refresh), and tap Arrived when you get there. For turn-by-turn directions, open the stop in Google Maps or Apple Maps.
 
 Plan your trip
 • Create trips and add places or quick stops to each day
@@ -75,14 +76,14 @@ Plan your trip
 
 On the road
 • Start a day and follow your plan stop by stop
-• See time to the next stop while you’re using the app
+• See time to the next stop, updated when you start the day, arrive at a stop, or refresh
 • Tap Arrived at each stop, or Skip if you move on
 • Open Google Maps or Apple Maps for turn-by-turn directions
 • If you’re running late, keep your times or shift later stops
 • See a recap when the day is done
 
 Your location
-Pinjai uses your location while you’re using the app to show where you are on today’s route and how long it takes to reach your next stop. It isn’t shared with friends or tracked in the background. If location is off, you can still follow the plan and tap “Arrived” yourself at each stop.
+On a trip day, while the app is open, Pinjai uses your location to show where you are on the trip day screen and how long it takes to reach your next stop. Travel time updates when you start the day, arrive at a stop, or refresh. Your location isn’t stored, isn’t shared with friends, and isn’t tracked in the background. If location is off, you can still follow the plan and tap “Arrived” yourself at each stop.
 
 Sign in and your account
 Sign in with Apple or Google. You can delete your account in the app.
@@ -134,7 +135,7 @@ Pinjai
 **Promotional text** (≤170)
 
 ```
-วางแผนทุกวันของทริป แล้วเที่ยวตามแผนได้เลย ใช้ตำแหน่งเฉพาะตอนที่เปิดใช้แอป ไม่แชร์ให้เพื่อน และไม่ติดตามตำแหน่งเบื้องหลัง
+วางแผนทุกวันของทริป แล้วเที่ยวตามแผนได้เลย ใช้ตำแหน่งเฉพาะระหว่างวันเดินทางตอนที่เปิดแอป ไม่เก็บตำแหน่ง ไม่แชร์ให้เพื่อน และไม่ติดตามตำแหน่งเบื้องหลัง
 ```
 
 **Description** (≤4000)
@@ -142,7 +143,7 @@ Pinjai
 ```
 พินใจช่วยให้วางแผนทุกวันของทริป แล้วเที่ยวตามแผนได้เลย
 
-สร้างทริป ค้นหาสถานที่ แล้วเพิ่มลงทริปในแต่ละวัน จัดลำดับจุดแวะ ดูเวลาขับรถระหว่างจุดแวะ และใช้จัดลำดับอัตโนมัติเมื่อลำดับใหม่ช่วยลดเวลาขับรถ ในวันเดินทาง ทำตามแผนทีละจุดแวะ ดูจุดแวะถัดไป ดูว่าอีกนานแค่ไหนจะถึงขณะที่เปิดใช้แอป และกด “ถึงแล้ว” เมื่อถึง หากต้องการนำทางทีละขั้น เปิดจุดแวะนั้นใน Google Maps หรือ Apple Maps
+สร้างทริป ค้นหาสถานที่ แล้วเพิ่มลงทริปในแต่ละวัน จัดลำดับจุดแวะ ดูเวลาขับรถระหว่างจุดแวะ และใช้จัดลำดับอัตโนมัติเมื่อลำดับใหม่ช่วยลดเวลาขับรถ ในวันเดินทาง ทำตามแผนทีละจุดแวะ ดูจุดแวะถัดไป ดูว่าอีกนานแค่ไหนจะถึง (อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช) และกด “ถึงแล้ว” เมื่อถึง หากต้องการนำทางทีละขั้น เปิดจุดแวะนั้นใน Google Maps หรือ Apple Maps
 
 วางแผนทริป
 • สร้างทริป แล้วเพิ่มสถานที่หรือจุดแวะสั้นในแต่ละวัน
@@ -153,14 +154,14 @@ Pinjai
 
 ระหว่างทาง
 • เริ่มวันแล้วเที่ยวตามแผนทีละจุดแวะ
-• ดูเวลาถึงจุดแวะถัดไปขณะที่เปิดใช้แอป
+• ดูเวลาถึงจุดแวะถัดไป อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช
 • กด “ถึงแล้ว” ในแต่ละจุดแวะ หรือกดข้ามถ้าไม่แวะ
 • เปิด Google Maps หรือ Apple Maps เพื่อนำทางทีละขั้น
 • ถ้าช้ากว่าแผน จะคงเวลาเดิมหรือเลื่อนจุดแวะที่เหลือได้
 • ดูสรุปวันเมื่อวันนั้นเสร็จ
 
 ตำแหน่งของคุณ
-พินใจใช้ตำแหน่งของคุณเฉพาะตอนที่เปิดใช้แอป เพื่อแสดงว่าคุณอยู่ตรงไหนบนเส้นทางวันนี้ และอีกนานแค่ไหนจะถึงจุดแวะถัดไป โดยไม่แชร์ให้เพื่อนและไม่ติดตามตำแหน่งเบื้องหลัง ถ้าปิดตำแหน่ง ก็ยังเที่ยวตามแผนและกด “ถึงแล้ว” เองในแต่ละจุดแวะได้
+ในวันเดินทาง ขณะที่เปิดแอป พินใจใช้ตำแหน่งของคุณเพื่อแสดงว่าคุณอยู่ตรงไหนในหน้าวันเดินทาง และอีกนานแค่ไหนจะถึงจุดแวะถัดไป เวลาเดินทางอัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช โดยไม่เก็บตำแหน่ง ไม่แชร์ให้เพื่อน และไม่ติดตามตำแหน่งเบื้องหลัง ถ้าปิดตำแหน่ง ก็ยังเที่ยวตามแผนและกด “ถึงแล้ว” เองในแต่ละจุดแวะได้
 
 เข้าสู่ระบบและบัญชี
 เข้าสู่ระบบด้วย Apple หรือ Google และลบบัญชีได้ในแอป
@@ -221,12 +222,12 @@ Both languages make the same claims. Product terms follow the in-app glossary (t
 | 7 | Saved places on the map | Yes | Yes |
 | 8 | Quick stops | Yes | Yes (จุดแวะสั้น) |
 | 9 | Trip day: follow the plan stop by stop | Yes | Yes |
-| 10 | Time to the next stop while using the app | Yes | Yes (ขณะที่เปิดใช้แอป) |
+| 10 | Time to the next stop updates when you start the day, arrive at a stop, or refresh | Updated when you start the day, arrive at a stop, or refresh | อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช |
 | 11 | Tap Arrived; Skip | Arrived / Skip | “ถึงแล้ว” / ข้าม |
 | 12 | Turn-by-turn is a handoff to Google or Apple Maps | Yes | Yes |
 | 13 | Running late: keep times or shift later stops | Yes | Yes (คงเวลาเดิม / เลื่อนจุดแวะที่เหลือ) |
 | 14 | Day recap (view only, not share) | See a recap | ดูสรุปวัน |
-| 15 | Location: only while using the app; show where you are on today’s route and time to the next stop; not shared with friends; not tracked in the background | Matches copy v0.3.3 in meaning | Matches copy v0.3.3 in meaning (wording taken from the TH purpose string) |
+| 15 | Location: only on a trip day while the app is open; shown on the trip day screen; times update at Start Day / Arrived or Skip / Refresh; not stored; not shared with friends; not tracked in the background | Matches P&C copy v0.3.6 and decision (ก) | Same meaning (หน้าวันเดินทาง, ไม่เก็บตำแหน่ง, อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช) |
 | 16 | If location is off, you can still follow the plan and tap Arrived yourself at each stop | If location is off, you can still follow the plan and tap “Arrived” yourself at each stop. | ถ้าปิดตำแหน่ง ก็ยังเที่ยวตามแผนและกด “ถึงแล้ว” เองในแต่ละจุดแวะได้ (P&C v0.2, exact TH) |
 | 17 | Sign in with Apple or Google only | Yes | Yes |
 | 18 | Delete account in the app | Yes | Yes |
@@ -243,7 +244,7 @@ Intentional non-claim differences (not feature differences):
 
 ## Notes: factual claims and sources
 
-This is store marketing copy, not legal advice. v0.2 applies the 12 Nov 2026 Privacy & Compliance review. Do not edit `copy/location-permission-copy.md`.
+This is store marketing copy, not legal advice. v0.2.5 applies Map decision (ก) and P&C location copy v0.3.6. P&C owns `copy/location-permission-copy.md`; do not edit it from this listing.
 
 | Claim in the listing | Source |
 | --- | --- |
@@ -256,17 +257,17 @@ This is store marketing copy, not legal advice. v0.2 applies the 12 Nov 2026 Pri
 | Driving time and distance between stops | `units.byCar`, `tripDetail.summaryPlaces_*`; Routes API in `REQUIREMENTS.md` |
 | Search categories (attractions, cafés, food, stays, and more) | `search.categories` (also Gas, Nature — covered by “and more”). “Powered by Google” stays in the in-app UI only; P&C v0.2 removed it from the store listing. |
 | Map of saved places | `map.*`; `REQUIREMENTS.md` Map row |
-| Trip-day mode, next stop, time to the next stop while the app is open | `tripDay.*`; `permissions.explainer.bullet2` / `bullet2Sub` (“Updated when you start the day, arrive at a stop, or refresh.” / “อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช”; Routes only at Start Day, Arrived/Skip, Refresh — pinjai #40); `errors.noLocationForEta` |
+| Trip-day mode, next stop, time to the next stop updated at Start Day, Arrived or Skip, and Refresh | `tripDay.*`; `permissions.explainer.bullet2` / `bullet2Sub` (“Updated when you start the day, arrive at a stop, or refresh.” / “อัปเดตตอนเริ่มวัน ถึงจุดแวะ หรือกดรีเฟรช”; Routes called once via Edge Function at Start Day, Arrived/Skip, or manual refresh — pinjai #40 / WS4 decision 4); `errors.noLocationForEta` |
 | Tap Arrived / “ถึงแล้ว”; Skip; no automatic check-in | `tripDay.arrivedAt`, `tripDay.skip`, `tripDay.checkInManual`; `docs/decisions.md` (manual Arrived); `REQUIREMENTS.md` (เช็กอินอัตโนมัติ = Phase 2) |
 | Turn-by-turn opens in Google Maps or Apple Maps (not in-app navigation) | `tripDay.navigateHint`, `navigation.openIn`; `REQUIREMENTS.md` (“สรุปก่อนออก → Google/Apple Maps”) |
 | Running late: Keep times / Shift later stops | `tripDay.lateBody`, `keepTimes`, `shift`; `REQUIREMENTS.md` |
 | Day recap is something you view, not share | `recap.*`; i18n README lists “Share recap” as Phase 2 |
-| Location used only while using the app, to show where you are on today’s route and how long it takes to reach the next stop; not shared with friends; not tracked in the background | `copy/location-permission-copy.md` v0.3.3 §1 purpose string (meaning; typographic apostrophes in EN store copy). TH description sentence matches the TH purpose string. Also `permissions.explainer.note`, `AGENTS.md` (When-In-Use only), `docs/decisions.md` |
+| Location used only during an in-progress trip day while the app is open (foreground), shown on the trip day screen, not stored, not shared with friends, not tracked in the background | Map decision (ก); `map.locationTripDayOnly` (“Your location shows on the trip day screen.” / “ตำแหน่งของคุณจะแสดงในหน้าวันเดินทาง”); `copy/location-permission-copy.md` v0.3.6 §7; When-In-Use only (`AGENTS.md`, `REQUIREMENTS.md`). Live location is never stored; Routes is called through an Edge Function at Start Day, Arrived/Skip, or Refresh (app-review notes; store-privacy-labels). The published privacy policy and FAQ still say “only while the app is open” more broadly — listing follows (ก); P&C should review. |
 | If location is off, you can still follow the plan and tap Arrived yourself at each stop | P&C review, 12 Nov 2026 (v0.2). The TH sentence is the exact wording they asked for. The EN sentence is the meaning match (it no longer says the plan “still works fully,” which was the older v0.3.3 denied-body phrase “แผนเที่ยวยังใช้ได้ครบ”). |
 | Sign in with Apple or Google only (no email sign-in) | `auth.continueWithApple` / `continueWithGoogle`; `docs/decisions.md` 2026-11-11 (“This supersedes the earlier requirements line that listed email”); i18n README 12 Nov changelog; prototype `README.md` |
 | Delete account in the app | `deleteAccount.*`; `docs/decisions.md` (in-app button is the primary path, Apple 5.1.1(v)); `REQUIREMENTS.md` |
 | Thai and English | `handoff/i18n/*`; `AGENTS.md` |
-| Support email, privacy URLs, delete-account URL, Support URL | Not in the description. See Store console fields. Support email `support@pinjai.com` (P&C v0.2; confirmed working 12 Nov 2026, no fallback). Privacy URLs from v0.3.3 / `AGENTS.md` / `docs/decisions.md`; App Store uses a URL per locale, Play uses the English URL (it links to Thai at the top). Delete-account URL: `.../delete-account/`. Support URL `.../faq/` is pending (P&C is building it; due 30 Nov–6 Dec 2026). |
+| Support email, privacy URLs, delete-account URL, Support URL | Not in the description. See Store console fields. Support email `support@pinjai.com` (P&C v0.2; confirmed working 12 Nov 2026, no fallback). Privacy URLs from v0.3.3 / `AGENTS.md` / `docs/decisions.md`; App Store uses a URL per locale, Play uses the English URL (it links to Thai at the top). Delete-account URL: `.../delete-account/`. Support URL `.../faq/` is ready (live since 12 Nov 2026, v0.2.3). |
 | Store name is the Latin “Pinjai” in every country | `AGENTS.md` rename checklist: “The store name and the Sign in with Apple name use one Latin name in every country; the Thai name is only the name under the icon on Thai-language devices.” |
 | No Terms of Use in the listing | `docs/decisions.md` 2026-11-12: no Terms page; Apple’s standard EULA; i18n README |
 | Trip covers are colour/gradient only | **Not claimed in the listing.** Source: `tripForm.cover` (“Cover color” / “สีปก”); `docs/decisions.md` (“No photo uploads and no trip cover upload. Trip covers use preset colors.”); i18n README open question 7. The clickable prototype still shows photo covers and an Upload control — that is out of date; the listing follows the later decision. |
@@ -285,13 +286,15 @@ These appear in older requirements, the prototype, or Phase 2, and are left out 
 - A Terms of Use URL
 - Support email, privacy-policy URLs, and the web delete-account URL in the marketing body (moved to Store console fields in v0.2)
 - “Powered by Google” in the store listing (in-app attribution is unchanged; P&C v0.2)
+- User location on the saved-places Map (decision (ก): that Map never reads or shows the user; location is shown on the trip day screen)
+- Continuous or “live” location updates while the app is merely open (times update only at Start Day, Arrived/Skip, or Refresh)
 
 ### Claims I am less sure about
 
 - **Colour vs gradient covers:** the brief says colour/gradient; `tripForm` and `docs/decisions.md` say preset colours. Covers are omitted from the listing, so this does not affect the copy.
 - **“And more” on search categories:** i18n also has Gas and Nature, which `REQUIREMENTS.md` does not list in the Search row. “And more” covers them without naming them.
-- **Live ETA wording:** the product has live time-to-next-stop while the app is open (`errors.noLocationForEta`, explainer bullet 2). The listing never says “live tracking” or implies background updates.
-- **`REQUIREMENTS.md` in `/workspace/travelhub` is behind later PM decisions** (email auth, Shared tab). This draft follows `docs/decisions.md`, `AGENTS.md` in the post-rename checkouts (`/workspace/travelhub-android-th-name/`), the i18n handoff, copy v0.3.3, and the prototype README.
+- **Travel-time wording:** times to the next stop update when you start the day, arrive at a stop, or refresh (`bullet2Sub`, WS4 decision 4), not continuously while the app is open. v0.2.5 states that cadence in the description.
+- **`REQUIREMENTS.md` in `/workspace/travelhub` is behind later PM decisions** (email auth, Shared tab). This draft follows `docs/decisions.md`, `REQUIREMENTS.md` (MVP Must features are unchanged), Map decision (ก), the i18n handoff, and P&C copy v0.3.6.
 
 ### Open questions for Privacy & Compliance and the Project Manager
 
@@ -301,4 +304,4 @@ These appear in older requirements, the prototype, or Phase 2, and are left out 
 4. **P&C — Support URL.** Done: `https://my-dizexrt.github.io/pinjai-legal/faq/` is live (12 Nov 2026) and checked by QA.
 5. **PM — Apple standard EULA.** There is no Terms URL in this copy. Store Connect should be set to Apple’s standard EULA, per the 12 Nov 2026 decision.
 
-v0.2 already applies the P&C decisions on privacy URLs (App Store per locale; Play uses the English URL), removing “Powered by Google” from the listing, and moving support/privacy/deletion out of the description. Software Engineer / PM can paste the fields into App Store Connect and Play Console once the FAQ page is live (submission is 21 Dec 2026).
+v0.2.5 keeps the P&C decisions on privacy URLs (App Store per locale; Play uses the English URL), removing “Powered by Google” from the listing, and moving support/privacy/deletion out of the description. Software Engineer / PM can paste the fields into App Store Connect and Play Console (submission is 21 Dec 2026).
