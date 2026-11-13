@@ -46,7 +46,7 @@ If Play Console still shows the question "Does your app access location in the b
 
 If the form appears anyway, stop: it means some library added the permission. Do not fill in a background justification; fix the build.
 
-QA check (store checklist): run `aapt2 dump permissions` (or `bundletool dump manifest`) on the release AAB and confirm there is no `ACCESS_BACKGROUND_LOCATION` or `FOREGROUND_SERVICE_LOCATION`.
+QA check (store checklist): run `bundletool dump manifest` on the release AAB (`aapt2` can't read an AAB) and confirm there is no `ACCESS_BACKGROUND_LOCATION` or `FOREGROUND_SERVICE_LOCATION`.
 
 ## 3. Prominent disclosure checklist (vs WS4 handoff round 2)
 
