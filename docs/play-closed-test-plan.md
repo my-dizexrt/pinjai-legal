@@ -30,7 +30,7 @@ The account type is picked when the account is created and **cannot be changed l
 | By **27 Nov** | Upload a release AAB (real backend and sign-in, **not mock mode**; trip day and the location screens may not be in it yet) to the **closed testing** track, add the testers (email list or Google Group), send them the opt-in link. The closed track release is reviewed by Google first | SE (build) + 🔴 owner (upload) |
 | By **30 Nov** | All testers **opted in** (the 14-day clock starts per tester at opt-in, not at invite) | testers |
 | 30 Nov – 13 Dec | Testers use what the build has: sign-in, My Trips, Add to Trip, Search, map (Google checks engagement, not just the count). QA tester guide; collect feedback | QA + PM |
-| About **13 Dec** | Upload an updated build to the same closed track with workstream 4 (trip day, location permission; real build lands 7–13 Dec). Testers stay opted in, so the 14 days keep counting | SE + 🔴 owner |
+| 7–13 Dec, **as soon as it's ready** | Upload an updated build to the same closed track with workstream 4 (trip day, location permission; real build lands 7–13 Dec). It's reviewed by Google like the first one, so don't wait for 13 Dec. Testers stay opted in, so the 14 days keep counting | SE + 🔴 owner |
 | 13–14 Dec | Testers try the trip day screen with location **allowed and denied**, and account deletion, so the production form has real feedback | testers + QA |
 | **14 Dec** | Apply for production on the Dashboard: three sections, about the closed test, the app, and readiness | 🔴 owner, P&C drafts answers |
 | 14–21 Dec | Google review, "usually 7 days or less" | Google |
@@ -42,7 +42,7 @@ Slack is 0 days. If the opt-ins slip past 30 Nov, the Android launch moves day f
 - Stay at **12 or more** testers the whole time. If it drops to 11, wait until it's back at 12, then count 14 days again.
 - Updating the build during the test is fine; the testers stay opted in.
 - Testers use the **real app and real backend**, so the published privacy policy applies to them as users. Don't use a test-only data flow.
-- Trip day and location are tested only after the ~13 Dec build (see §2).
+- Trip day and location are tested only after the workstream 4 build (see §2). Invite text and tester notice: [closed-test-invite.md](closed-test-invite.md).
 - Don't promise anything about the test in the store listing (it isn't public until production).
 
 ## 4. Tester data (PDPA)
