@@ -29,7 +29,7 @@
 | # | ลองทำ | ควรเห็น |
 |---|---|---|
 | 8 | เปิดทริปในวันเดินทาง (ทีมจะบอกวิธีตั้งทริปให้ตรงกับวันนี้) กด **เริ่มวันที่ N** แล้วในหน้าต่างขอสิทธิ์ของ Android เลือก **ขณะใช้แอป** (While using the app ชื่ออาจต่างไปตามรุ่นเครื่อง) | เห็นตำแหน่งของคุณในหน้าวันเดินทาง ไม่มีตัวเลือกหรือคำขอ "ตลอดเวลา" |
-| 9 | ทำซ้ำข้อ 8 แต่เลือก **ไม่อนุญาต** | แอปยังใช้ได้ มีข้อความบอกว่าตำแหน่งปิดอยู่ ไม่ถามซ้ำทุกครั้ง |
+| 9 | ทำซ้ำข้อ 8 แต่เลือก **ไม่อนุญาต** แล้วกด **เริ่มวันที่ N โดยไม่ใช้ตำแหน่ง** | แอปยังใช้ได้ มีข้อความบอกว่าตำแหน่งปิดอยู่ ไม่ถามซ้ำทุกครั้ง |
 | 10 | กด **นำทาง** ที่สถานที่ | เปิด Google Maps ไปยังสถานที่นั้น |
 | 11 | (ทำเป็นข้อสุดท้าย) โปรไฟล์ › ลบบัญชี | ลบได้ภายในแอป แล้วกลับไปหน้าเข้าสู่ระบบ จากนั้นเข้าสู่ระบบด้วย Google อีกครั้งเพื่อใช้ต่อได้ (จะได้บัญชีใหม่ที่ว่างเปล่า) **อย่าถอนการติดตั้งแอปหรือถอนตัวจากโครงการทดสอบ** |
 
@@ -74,7 +74,7 @@ Some of these may not be in the build you get yet. If you can't find the button 
 | # | Try | You should see |
 |---|---|---|
 | 8 | Open a trip on its trip day (the team will tell you how to set a trip to today), tap **Start Day N**, and in Android's permission dialog choose **While using the app** (the wording can differ by phone) | You see your location on the trip day screen; there is no "all the time" option or request |
-| 9 | Repeat 8 but choose **Don't allow** | The app still works, says location is off, and doesn't ask again every time |
+| 9 | Repeat 8 but choose **Don't allow**, then tap **Start Day N without location** | The app still works, says location is off, and doesn't ask again every time |
 | 10 | Tap **Directions** on a place | Google Maps opens at that place |
 | 11 | (Do this last) Profile › Delete account | You can delete inside the app and land back on sign-in. Then sign in with Google again to keep testing (you get a new, empty account). **Don't uninstall the app or opt out of the test** |
 
