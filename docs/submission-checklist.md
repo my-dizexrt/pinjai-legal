@@ -38,7 +38,7 @@ If the Play developer account is a **personal account created after 13 Nov 2023*
 | A11 | Content rights | ✅ | Yes, third-party content; Yes, rights (GMP terms) |
 | A12 | Export compliance | ✅ | Standard encryption only; `ITSAppUsesNonExemptEncryption: false` |
 | A13 | Screenshots (iPhone 6.9" set; no iPad, `supportsTablet: false`) | 🟡 Designer | store-screenshots skill, TH/EN |
-| A14 | App icon | ✅ | in the build |
+| A14 | App icon | 🟡 SE | Comes from the build: Icon System v2 in `apps/mobile/assets/icon/` (pinjai logo PR, full set kept in `design/brand/`). Must have no transparency (Apple) |
 | A15 | Build (via EAS / TestFlight) | 🟡 SE | release build |
 | A16 | **Sign-in required → demo account for review** | 🟡 SE + 🔴 owner | Sign-in with Apple/Google only, so review needs a working path: a reviewer account or a demo mode. Put the details in Sign-in information (not in Notes). Decide once real auth lands |
 | A17 | Review notes | ✅ draft | app-review-notes.md (open items: menu labels, 7-day backup sentence) |
@@ -50,7 +50,7 @@ If the Play developer account is a **personal account created after 13 Nov 2023*
 |---|---|---|---|
 | G1 | Package name | ✅ | `com.pinjai.app` |
 | G2 | App name, short description, full description (TH, EN) | ✅ | store-listing.md |
-| G3 | App icon 512×512, feature graphic 1024×500 | 🟡 Designer | Feature graphic not made yet |
+| G3 | App icon 512×512, feature graphic 1024×500 | 🟡 SE + Designer | Icon: Icon System v2 `03_android/play_store_512.png` (512×512, 82 KB; under `design/brand/` in pinjai once the logo PR merges). Play asks for a 32-bit PNG and this file is RGB without alpha, so if Play Console rejects it, export the same artwork as RGBA (no redesign). Feature graphic not made yet |
 | G4 | Phone screenshots | 🟡 Designer | store-screenshots skill |
 | G5 | App category | 🟡 PM | Suggest Travel & Local |
 | G6 | Store contact email / website | ✅ | `support@pinjai.com` · website optional (FAQ URL can be used) |
